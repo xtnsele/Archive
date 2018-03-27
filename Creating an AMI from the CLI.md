@@ -1,6 +1,6 @@
 Creating an AMI from the CLI
 
-aws ec2 create-image --instance-id i-0b09a25c58929de26 --name "My server" --no-reboot
+aws ec2 create-image --instance-id i-0bxxxxde26 --name "My server" --no-reboot
 
 
 --no-reboot | --reboot (boolean)
