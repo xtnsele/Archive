@@ -35,3 +35,5 @@ https://social.technet.microsoft.com/Forums/lync/en-US/c331d314-2f04-4b07-a3fd-8
 https://community.spiceworks.com/scripts/show/613-cloned-machines-not-reporting-into-wsus-server
 
 https://community.spiceworks.com/how_to/91430-wsus-computers-are-not-showing-up-in-the-console-what-s-wrong 
+
+https://blog.netnerds.net/2006/12/wsus-force-registration-of-clients-that-are-not-showing-up/
