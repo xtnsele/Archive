@@ -20,8 +20,18 @@ Navigate to this registry path below and delete the "**SusClientID**" and "**Sus
 
 And then restart the Automatic Updates service.
 
+And perform or run the following from the CLI below 
+
+ `wuauclt /resetauthorization /detectnow`
+
+
+
+    wuauclt.exe /detectnow /reportnow
+
 **Source**
 
 https://social.technet.microsoft.com/Forums/lync/en-US/c331d314-2f04-4b07-a3fd-878183b8101d/wsus-clients-appear-then-disappear-in-console?forum=winserverwsus 
 
 https://community.spiceworks.com/scripts/show/613-cloned-machines-not-reporting-into-wsus-server
+
+https://community.spiceworks.com/how_to/91430-wsus-computers-are-not-showing-up-in-the-console-what-s-wrong 
