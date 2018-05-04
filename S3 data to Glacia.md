@@ -1,10 +1,7 @@
 **Archiving Amazon S3 Data to Amazon Glacier**
 
 **Things to consider** 
-- Is there a usecase for us to move S3 files to Glacier using object lifecycle management after a long period of time (CapEx reduced).
- 
-**Note:** Files are not copied but moved to Glacia
-- Would there be data transfer cost associated with this?
+- Usecase to move S3 files to Glacier using object lifecycle management after a long period of time (CapEx reduced).
 
 **Note:** Glacier is really meant for long term storage, which is very infrequently accessed. 
 - It can also get very expensive to retrieve a large portion of your data in one go, as it's not meant for point-in-time restoration of lots of data (percentage wise).

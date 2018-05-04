@@ -2,7 +2,7 @@
 
 **Note:** When I login to each workstation and type in CLI (CMD)
 
-    *wuauclt.exe /detectnow /reportnow*
+    wuauclt.exe /detectnow /reportnow
 
 I am able to see these machines from the WSUS console but the other would disappear.
 
@@ -16,7 +16,7 @@ Each time the server contacts wsus, the entry in the WSUS console would get over
 
 Navigate to this registry path below and delete the "**SusClientID**" and "**SusClientIDValidation**" registry values in the key
 
-    **HKLM\Software\Microsoft\Windows\CurrentVersion\WindowsUpdate**
+    HKLM\Software\Microsoft\Windows\CurrentVersion\WindowsUpdate
 
 And then restart the Automatic Updates service.
 
